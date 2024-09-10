@@ -9,12 +9,12 @@ const perguntas = [
         enunciado: "Amizade verdadeira são aquelas que duram para sempre?",
         alternativas: [
             {
-                texto: "verdadeiro!",
-                afirmacao: "pode parecer que amizades duradouras indicam verdadeiras, mais a duração não é o unico fator "
+                texto: "Verdadeiro!",
+                afirmacao: "Pode parecer que amizades duradouras indicam verdadeiras, mais a duração não é o unico fator "
             },
             {
-                texto: "falso",
-                afirmacao: "nem todas as amizades verdadeiras duram para sempre devido a mudança de vida."
+                texto: "Falso",
+                afirmacao: "Nem todas as amizades verdadeiras duram para sempre devido a mudança de vida."
             }
         ]
     },
@@ -22,51 +22,51 @@ const perguntas = [
         enunciado: "Qual da seguintes não é uma caracterisca importante de uma boa amizade?",
         alternativas: [
             {
-                texto: "confiança .",
-                afirmacao: "essencial para uma boa amizade."
+                texto: "Confiança .",
+                afirmacao: "Esencial para uma boa amizade."
             },
             {
-                texto: "competitividade .",
-                afirmacao: "prtejudical, pois pode causar rivalidade."
+                texto: "Competitividade .",
+                afirmacao: "Prejudicial, pois pode causar rivalidade."
             }
         ]
     },
     {
-        enunciado: "amigos sempre devem concordar em tudo?",
+        enunciado: "Amigos sempre devem concordar em tudo?",
         alternativas: [
             {
-                texto: "verdadeiro.",
-                afirmacao: "idealmente, amigos deviam concordar, mas isso é uma visão limitada."
+                texto: "Verdadeiro.",
+                afirmacao: "Realmente, amigos deviam concordar, mas isso é uma visão limitada."
             },
             {
-                texto: "falso.",
+                texto: "Falso.",
                 afirmacao: "Discordância são normais e podem fortalecer uma amizade"
             }
         ]
     },
     {
-        enunciado: "Qua das seguintes é uma maneira de fortalecer a amizade",
+        enunciado: "Qual das seguintes é uma maneira de fortalecer a amizade",
         alternativas: [
             {
-                texto: "passar mais tempos juntos ",
-                afirmacao: "ajudar a criar laços mais profundos ."
+                texto: "Passar mais tempos juntos ",
+                afirmacao: "Ajudar a criar laços mais profundos ."
             },
             {
-                texto: "compartilhar segredos",
-                afirmacao: "também pode fortalecer a amizade mas é apenas uma parte do processo!"
+                texto: "Compartilhar segredos",
+                afirmacao: "Também pode fortalecer a amizade mas é apenas uma parte do processo!"
             }
         ]
     },
     {
-        enunciado: "amigos verdadeiros sempre se apoiam nos momentos difíceis? ",
+        enunciado: "Amigos verdadeiros sempre se apoiam nos momentos difíceis? ",
         alternativas: [
             {
-                texto: "verdadeiro.",
-                afirmacao: "o apoio em momentos difíceis é um sinal de amizade verdadeira."
+                texto: "Verdadeiro.",
+                afirmacao: "O apoio em momentos difíceis é um sinal de amizade verdadeira."
             },
             {
-                texto: "falso",
-                afirmacao: "embora ideal, pode haver situaçao em que o apoio não é possivel. "
+                texto: "Falso",
+                afirmacao: "Embora ideal, pode haver situaçao em que o apoio não é possivel. "
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = " texto resultado";
+    caixaPerguntas.textContent = " Texto resultado";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
